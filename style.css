@@ -10,3 +10,41 @@ body{
     background-color: #FEECE0;
     overflow: hidden;
 }
+
+.top{
+    display: flex;
+    align-items: center;
+    gap: 56px;
+}
+
+picture img{
+    width: 409px;
+    height: 293px;
+}
+
+.top h1{
+    font-size: 72px;
+    color:#58190A;
+}
+
+.top p{
+    font-size: 38px;
+    color:#58190A;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons span{
+    font-size: 35px;
+    color: #9B6647;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

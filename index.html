@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3&family=Source+Serif+4:wght@400;700&display=swap" rel="stylesheet" />
 
-  <script src="main.js"></script>
+  
 
 
 </head>
@@ -28,13 +28,13 @@
             <div class="buttons">
                 <span>Porções</span>
 
-                <button id="buttons-less">
+                <button onclick="decreaseCounter()">
                     <img src="./assets/less.svg" alt="botão menos">
                 </button>
 
                 <p id="counter">01</p>
 
-                <button id="button-plus">
+                <button onclick="increaseCounter()">
                     <img src="./assets/plus.svg" alt="botão mais"></button>
             </div>
         </div>
@@ -71,5 +71,6 @@
     
         </div>
     </section>
+    <script src="main.js"></script>
 </body>
 </html>
